@@ -1,7 +1,10 @@
+"use client";
+
 import { useState, useEffect } from "react";
 
 // ─── Load JSON data ────────────────────────────────────────────────────────────
-const DATA_URL = "./dissertation.json";
+// Next.js'da public papkasidagi fayllar "/" orqali chaqiriladi
+const DATA_URL = "/dissertation.json";
 
 // ─── Icons ────────────────────────────────────────────────────────────────────
 const IconMenu = () => (
@@ -286,13 +289,12 @@ function Sidebar({ data, activeId, onSelect, open }) {
   const [expanded, setExpanded] = useState({});
 
   useEffect(() => {
-    // auto-expand active section
     data.sections.forEach(s => {
       if (s.id === activeId || s.subsections?.some(ss => ss.id === activeId)) {
         setExpanded(e => ({ ...e, [s.id]: true }));
       }
     });
-  }, [activeId]);
+  }, [activeId, data.sections]);
 
   const toggle = (id) => setExpanded(e => ({ ...e, [id]: !e[id] }));
 
@@ -492,7 +494,6 @@ export default function App() {
       .then(r => r.json())
       .then(d => { setData(d); setActiveId(d.sections[0]?.id); })
       .catch(() => {
-        // fallback: embedded mini data
         setData({ meta: { title: "Dissertatsiya yuklanmadi", author: "", institution: "", department: "", specialty: "", supervisor: "", city: "", year: "", udk: "" }, sections: [] });
       });
   }, []);
@@ -502,7 +503,6 @@ export default function App() {
     const el = document.getElementById(id);
     if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); }
     else {
-      // scroll to section
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
     if (window.innerWidth < 768) setSidebarOpen(false);
