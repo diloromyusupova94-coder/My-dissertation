@@ -1,1 +1,209 @@
-
+{
+  "meta": {
+    "institution": "O'ZBEKISTON XALQARO ISLOM SHUNOSLIK AKADEMIYASI",
+    "department": "\"ARAB TILI VA ADABIYOTI AL-AZHAR\" KAFEDRASI",
+    "author": "YUSUPOVA DILOROM HUSAN QIZI",
+    "title": "ARAB TILIDAGI SO'ROQ GAPLARDA SHAKL VA MAZMUN MUNOSABATI",
+    "specialty": "70230101 – Lingvistika (arab tili)",
+    "degree": "Magistr akademik darajasini olish uchun yozilgan dissertatsiya",
+    "supervisor": "fil.f.f.d. (PhD), dots. A.Kazakbayev",
+    "department_head": "tar.f.d. (DSc), prof. v.b. R.Matibayeva",
+    "magistratura_head": "i.f.n., dots. A.Abdirashidov",
+    "city": "TOSHKENT",
+    "year": "2026",
+    "udk": "811.411.21'367.322",
+    "total_pages": "77"
+  },
+  "sections": [
+    {
+      "id": "kirish",
+      "type": "intro",
+      "title": "KIRISH",
+      "subsections": [
+        {
+          "id": "kirish-dolzarbligi",
+          "title": "Dissertatsiya mavzusining asoslanishi va uning dolzarbligi",
+          "content": "Dunyo tilshunosligida so'roq gaplar mavzusi tilning eng muhim jihatlaridan biri hisoblanadi. Ular nafaqat ma'lumot olish vositasi sifatida, balki insonning fikr, his-tuyg'ulari va ijtimoiy munosabatlarini ifodalash vositasi sifatida ham tadqiq etiladi. So'roq gaplarni o'rganish orqali grammatik strukturalar, semantik vazifalar va uslubiy o'ziga xosliklarni aniqlash mumkin bo'ladi. Bu esa turli tillar orasidagi umumiy qonuniyatlar va farqlarni tadqiq qilishda katta ahamiyat kasb etadi. Shu bilan birga, so'roq gaplar mavzusi lingvistik tahlil, psixolingvistika va nutq faoliyati sohalarida markaziy o'rin tutadi, chunki ular orqali til orqali inson tafakkuri, e'tibor jalb qilish va muloqotdagi interaktivlik mexanizmlari chuqur o'rganiladi.\n\nSo'nggi yillarda yurtimizda chet tillarini samarali o'qitishga qaratilayotgan ishlar, yoshlarning chet tilini o'rganishlari uchun yaratilayotgan sharoitlar arab tili o'rganuvchilari uchun ham manfaatli bo'layotgani hech kimga sir emas. Ayniqsa, yurtboshimiz Shavkat Mirziyoyev tomonidan ayni sohaga alohida ahamiyat qaratilishi chet tillarini o'rganishning muhimligini yana bir bor isbotlaydi.\n\nArab tilining naqadar ahamiyatli ekani O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyevning 2023-yil 19-iyulda bo'lib o'tgan \"Ko'rfaz arab davlatlari – Markaziy Osiyo\" oliy darajadagi birinchi sammitidagi nutqida ham o'z ifodasini topgan.\n\nMa'lumki, arab tili boshqa tillardan so'z boyligining ko'pligi, grammatik jihatdan o'zgachaligi, sarf va nahv ilmlari bilan ajralib turadi. Mazkur grammatik tizimda \"So'roq gaplar\" mavzusining alohida o'rni bor. Arab tilida shunday so'roq gaplar borki, ularning asl ma'nosini anglash uchun grammatik qoidalarni bilishning o'zi kifoya qilmaydi."
+        },
+        {
+          "id": "kirish-tadqiqot",
+          "title": "Tadqiqot obyekti, predmeti, maqsad va vazifalari",
+          "content": "Tadqiqotning obyekti sifatida arab tilida qo'llaniladigan so'roq gaplar, ularning grammatik shakllari, ma'no jihatidan turlari va sintaktik tuzilishi, shuningdek, arab tilshunosligida so'roq gaplarning o'rganilishi bilan bog'liq nahv va balog'at ilmlariga oid manbalar tanlab olingan.\n\nTadqiqotning predmetini arab tilidagi so'roq gaplarda shakl va ma'no munosabatining lingvistik xususiyatlari, ularning tuzilish qonuniyatlari va semantik-sintaktik jihatlarini o'rganish tashkil etadi.\n\nUshbu tadqiqotda arab tilidagi so'roq gaplarning shakl va ma'no munosabatini o'rganish, ularning grammatik, semantik va stilistik jihatlarini tahlil qilish, so'roq gaplarning shakliy-mazmuniy asimmetriyasi haqida izlanish olib borish, shuningdek, Qur'oni Karim oyatlaridagi so'roq gaplarning lingvistik xususiyatlarini yoritish maqsad qilib belgilangan.",
+          "tasks": [
+            "Mumtoz arab tilshunosligida so'roq gaplarning talqinini o'rganish",
+            "So'roq gaplarning yoritilishida zamonaviy arabshunoslarning qarashlarini tahlil qilish",
+            "أ (-mi) yuklamasining so'roq gaplardagi ma'no ifodalarini aniqlash",
+            "هل (-mi) so'roq yuklamasining o'ziga xos xususiyatlarini o'rganish",
+            "So'roq olmoshlari va ularning so'roq gapda ishtirok etish xususiyatlarini ochiqlash",
+            "So'roq olmoshli gaplarda shakl va mazmun nomuvofiqligini tavsiflash"
+          ],
+          "novelty": [
+            "Arab tilidagi so'roq gaplar tahliliy asosda mavzuviy guruhlarga ajratildi",
+            "So'roq gaplarda asimmetriya jarayonining leksik-semantik xususiyatlari ochib berildi va ularning til tizimidagi roli aniqlandi",
+            "Qur'oni Karim oyatlarida uchraydigan so'roq gaplarning struktur tuzilishi tahlil qilinib, ularning balog'at ilmiga oid o'ziga xos jihatlari aniqlandi",
+            "So'roq gaplarning shakl va mazmun munosabatiga ta'sir etuvchi sintaktik, morfologik va stilistik xususiyatlari ochib berildi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bob1",
+      "type": "chapter",
+      "number": "I",
+      "title": "ARAB TILIDAGI SO'ROQ GAPLAR O'RGANILISHINING NAZARIY MASALALARI",
+      "subsections": [
+        {
+          "id": "1-1",
+          "title": "1.1. Mumtoz arab tilshunosligida so'roq gaplar talqini",
+          "pages": "11–34",
+          "content": "Har qaysi tilda so'roq gaplar alohida ahamiyat kasb etuvchi asosiy gap turlaridan biri hisoblanadi. Arab tilida so'roq gaplarning ma'no xususiyatlari, ayniqsa, balog'at ilmida batafsil yoritiladi. Sintaktik jihatdan so'roq gaplarning yasalishi, gap tarkibi, so'roq olmoshlari va yuklamalari nahv kitoblarida batafsil keltiriladi.\n\nArab tili o'zining boy ifoda vositalari va uslubiy jihatlari bilan ajralib turadi. Jumlalarning mohiyatini to'liq anglashda ularning ikki turga – insho va xabar uslubiga bo'linishi ham arab tili balog'atining o'ziga xosliklaridan biridir.\n\nTilshunos S. Ahmad Hoshimiy o'zining \"Javohiru-l-balog'o\" asarida jumlaning xabar turiga shunday ta'rif beradi: \"Xabar – rost yoki yolg'onni o'z ichiga olishi mumkin bo'lgan gap.\" Insho esa xabardan farqli ravishda, rost yoki yolg'on bo'lish ehtimoliga ega bo'lmagan jumla turi sanaladi.\n\nSibavayh o'zining \"Al-Kitab\" asarida so'roq gaplar masalasiga alohida bob ajratmagan. U gap bo'laklarining turli sintaktik vazifalarda qo'llanishi haqida ma'lumot berar ekan, shu o'rinlarda zarur joylarda so'roq gaplarga oid fikrlarni ham bayon qilib boradi.\n\nIbn Jinniyning \"Al-Xasois\" asari arab tili tabiati, tuzilishi, va qonuniyatlarini ilmiy asosda sharhlagan, fonetika, morfologiya, sintaksis, semantika bo'limlarini butun bir tizim sifatida tahlil qilingan asardir.\n\nMahmud Zamaxshariyning \"Mufassal\" asari ham arab tilshunosligi bo'yicha mo'tabar manbalardan hisoblanadi. Ushbu asarda muallif so'roq vositalarining ma'nolari, qo'llanishi borasida muhim ma'lumotlar beradi."
+        },
+        {
+          "id": "1-2",
+          "title": "1.2. So'roq gaplarning yoritilishida zamonaviy arabshunoslarning qarashlari",
+          "pages": "25–34",
+          "content": "Zamonaviy arabshunoslikda so'roq gaplar ikki asosiy yo'nalishda tadqiq qilinadi: formal-sintaktik va pragmatik-semantik. Formal-sintaktik yondashuvda so'roq gaplarning tarkibi, tartibi va yuklamalari hamda olmoshlari qat'iy grammatik me'yorlar asosida tahlil qilinadi. Pragmatik-semantik yo'nalishda esa so'roq gaplarning ma'nosi, nutq maqsadi va kontekstga bog'liqligi, majoziy va balog'iy funksiyalari o'rganiladi.\n\nSo'roq gaplar umumiy, alternativ va maxsus turlarga bo'linadi: umumiy so'roqlarda javob \"ha/yo'q\" bilan beriladi. Alternativ so'roqlarda muqobil variantlar bo'lib, javob tayinlash yoki \"ha/yo'q\" bilan bo'lishi mumkin. Maxsus so'roqlar esa so'roq olmoshlari orqali tuzilib, javobi tayinlash bilan ifodalanadi.\n\nZamonaviy arab tilshunoslaridan F.Samirroiy, A.Hoshimiy, A.Jarim, M.Amin, H.Nosif, M.G'alayiniy, M.Antokiy kabi olimlarning kitoblari klassik asarlarni tushunib o'qib o'rganishda katta yordamchi bo'lib xizmat qiladi."
+        }
+      ],
+      "conclusion": "Mumtoz arab tilshunosligi so'roq gaplarni shakliy-mazmuniy asimmetriya, pragmatik va balog'iy funksiyalari bilan birga yoritib, zamonaviy lingvistika, xususan, pragmatika va ritorika tadqiqotlari uchun muhim manba bo'lib qolmoqda."
+    },
+    {
+      "id": "bob2",
+      "type": "chapter",
+      "number": "II",
+      "title": "SO'ROQ YUKLAMALARI VOSITASIDA YASALGAN GAPLARDA SHAKL VA MA'NO MUNOSABATI",
+      "subsections": [
+        {
+          "id": "2-1",
+          "title": "2.1. أ (-mi) yuklamasining so'roq gaplardagi ma'no ifodasi",
+          "pages": "37–44",
+          "content": "Arab tilida أ so'roq yuklamasi formal jihatdan savol shaklini bersa-da, uning ma'no doirasi oddiy so'roqdan ancha kengdir. Balog'at va nahv manbalarida bu yuklama orqali inkor, taqrir (iqror qildirish), tanbeh, taajjub, istehzo, ogohlantirish, qiziqtirish, shubhaga solish, nafratlantirish, tenglashtirish kabi o'nlab majoziy ma'nolar ifodalanishi qayd etiladi.\n\nQur'oni Karim oyatlarida ham أ ning ushbu ko'p qatlamli ma'nolari keng qo'llanib, so'zlovchining tinglovchiga ta'sirini kuchaytiruvchi uslubiy vosita sifatida namoyon bo'ladi. Shu bois أ yuklamasi ishtirok etgan jumlalar ko'pincha javob talab qilmaydi.\n\nDemak, أ yuklamasi arab tilining semantik-pragmatik tizimida muhim o'rin tutib, so'zlovchi niyatini kuchli emotsional va majoziy tusda yetkazish imkonini beradi. Sibavayh أ so'roq yuklamasini boshqa tilshunoslardan farqli ravishda \"alif\" deb nomlaganini ko'rish mumkin. Boshqa tilshunoslar bu so'roq yuklamasini \"Hamza\" deb nomlaydilar.\n\nZamaxshariy أ yuklamasining boshqa so'roq vositalariga qaraganda ko'proq, kengroq qo'llanishini bayon etadi va undan so'ng ismni fe'ldan oldin keltirish joiz ekanini ta'kidlaydi."
+        },
+        {
+          "id": "2-2",
+          "title": "2.2. هل (-mi) so'roq yuklamasining o'ziga xos xususiyatlari",
+          "pages": "44–51",
+          "content": "هل yuklamasi arab tilida tasdiq so'roqlarining asosiy vositasi bo'lib, shaklan oddiy savol berishni bildiradi. Biroq balog'at manbalari va zamonaviy lingvistik tadqiqotlarda uning ma'nosi faqat savol bilan chegaralanmasligi ta'kidlanadi.\n\nهل ko'pincha kontekst orqali buyruq, iltimos, taklif, istak, qiziqtirish, ogohlantirish, muloyim tanbeh, ta'kid, hatto rad etish kabi turli majoziy ma'nolarni hosil qiladi. Bu holat هل ning pragmatik vazifasi kuchli bo'lgan, tinglovchi psixologiyasiga bevosita ta'sir ko'rsatuvchi vosita ekanini ko'rsatadi.\n\nShuningdek, هل ning qo'llanish doirasi ayrim grammatik cheklovlarga ega: u tasavvur so'roqlarida ishlatilmaydi, shart va bo'lishsiz gaplar bilan kelmaydi, إنّ bilan moslashmaydi hamda fe'lning hozirgi zamon ma'nosini anglatmaydi. Bu jihatlar uni أ yuklamasidan farqlaydi.\n\nAksincha, أ kengroq semantik imkoniyatga ega bo'lib, tasdiq ham, tasavvur so'roqlarida ham ishlatiladi va balog'iy ma'nolar ko'lamida هل dan ustun turadi."
+        }
+      ],
+      "conclusion": "Arab tilida أ so'roq yuklamasi kengroq semantik imkoniyatga ega bo'lib, هل yuklamasi esa tasdiq so'roqlar uchun asosiy vosita sifatida xizmat qiladi. Har ikki yuklama so'zlovchining tinglovchiga ta'sir ko'rsatishda muhim pragmatik vazifa bajaradi."
+    },
+    {
+      "id": "bob3",
+      "type": "chapter",
+      "number": "III",
+      "title": "SO'ROQ OLMOSHLARI ORQALI YASALGAN GAPLARDA SHAKL VA MA'NO XILMA-XILLIGI",
+      "subsections": [
+        {
+          "id": "3-1",
+          "title": "3.1. So'roq olmoshlari va ularning so'roq gapda ishtirok etish xususiyatlari",
+          "pages": "53–60",
+          "content": "Arab tilidagi so'roq olmoshlari mazmuniy va sintaktik jihatdan murakkab birliklar bo'lib, rasmiy belgilari jihatidan gap boshida kelishi bilan bir-biriga o'xshash ko'rinsa-da, ularning har biri ma'lum grammatik vazifa, ma'no doirasi va kontekstual shartlarga ega.\n\nSo'roq olmoshlarining aksariyati mabniy bo'lib, o'zgaruvchan shaklga ega emas. Faqat أي olmoshi i'roblanuvchi (mu'rab) hisoblanadi va izofa birikmasi hosil qilishi, shuningdek, gap tarkibida egadan tortib to'ldiruvchigacha turli sintaktik rollarda kelishi mumkin.\n\nمن va ما olmoshlari ismiy xususiyatga ega bo'lib, oqil va g'ayri oqilga nisbatan qo'llanishi ularga yuklanadigan sintaktik vazifani belgilaydi. Ayniqsa ماذا olmoshi tarkibiy tuzilishi nuqtai nazaridan ikki xil talqin qilinadi: u ba'zan bir butun so'roq olmoshi sifatida, ba'zan esa ما + ذا tarkibli birlik sifatida e'rob qilinadi.\n\nO'rin, zamon, miqdor, holat va sababni bildiruvchi olmoshlar – أين, متى, أيان, كم, كيف, أنّى – o'z ma'no xususiyatiga mos ravishda zarf yoki to'ldiruvchi vazifalarini bajaradi."
+        },
+        {
+          "id": "3-2",
+          "title": "3.2. So'roq olmoshli gaplarda shakl va mazmun nomuvofiqligi",
+          "pages": "60–68",
+          "content": "Arab tilida so'roq gaplar doim ham savol berish uchun ishlatilmaydi. So'roq gap orqali majoziy ma'nolarni berish so'zlovchining tinglovchiga fikrini ta'sirchanroq ifoda etishga, harakatga undashga, aytilgan gap haqida ko'proq tafakkur qilishga yordam beradi.\n\nمن (kim) so'roq olmoshi qo'llangan gaplar nafaqat haqiqiy, balki majoziy ma'noni ham ifodalaydi. Xususan, Mustafo G'alayiniy o'zining \"جامع الدروس العربية\" (\"Arab tili darslari jamlanmasi\") kitobida mazkur so'roq olmoshining inkor (النفي والإنكار) ma'nosini ifodalashi mumkinligini aytadi.\n\nما (nima) so'roq olmoshi quyidagi majoziy ma'nolarni ifodalaydigan so'roq gaplarda qo'llaniladi: ulug'lash (التعظيم والتفخيم), tahqirlash (التحقير), inkor etish (الإنكار), majbur qilish (الإلزام), aqlga sig'maydigan narsani so'roq orqali rad etish (الاستبعاد).\n\nأين, متى, أيان, كيف, أي so'roq olmoshlari ko'p hollarda o'zlarining bevosita ma'nosidan chekinib, majoziy va emotsional mazmunni ifodalash uchun ishlatiladi. Bu esa shakl va ma'no o'rtasidagi tafovutni ko'rsatib, ularning uslubiy boyligidan dalolat beradi."
+        }
+      ],
+      "conclusion": "Arab tilidagi so'roq olmoshlari ko'p hollarda stilistik va ma'naviy yuklangan vosita bo'lib, ular orqali nutqqa chuqur emotsional, estetik va ilohiy ta'sir beriladi. Shu jihatdan arab tilidagi so'roq olmoshlarining sintaktik va semantik tahlili faqat grammatik ko'nikmalar bilan emas, balki kontekstual anglash, tafsiriy yondashuv asosida chuqur o'rganilishi zarur."
+    },
+    {
+      "id": "xulosa",
+      "type": "conclusion",
+      "title": "XULOSA VA TAKLIFLAR",
+      "points": [
+        {
+          "number": "Birinchidan",
+          "content": "Mumtoz arab tilshunosligida so'roq gaplar asosiy inshoiy jumla turi sifatida o'rganilgan bo'lib, ular avval noma'lum bo'lgan ma'lumotni bilish yoki aniqlashtirish maqsadida ishlatiladi. Nahv asarlarida so'roq gaplarning sintaktik tuzilishi, so'roq yuklamalari va olmoshlari batafsil yoritilgan, balog'at asarlarida esa ularning ma'no xususiyatlari, qo'llash o'rinlari va sof hamda majoziy funksiyalari tahlil qilinadi."
+        },
+        {
+          "number": "Ikkinchidan",
+          "content": "Zamonaviy arab tilshunosligida so'roq gaplar ikki asosiy yo'nalishda tadqiq qilinadi: formal-sintaktik va pragmatik-semantik. So'roq gaplar umumiy, alternativ va maxsus turlarga bo'linadi. Shu tariqa, arab tilidagi so'roq gaplarning turlari ularning sintaktik tuzilishi, semantik vazifasi va javob shakli bilan belgilanadi."
+        },
+        {
+          "number": "Uchinchidan",
+          "content": "Arab tilida أ so'roq yuklamasi formal jihatdan savol shaklini bersa-da, uning ma'no doirasi oddiy so'roqdan ancha kengdir. Balog'at va nahv manbalarida bu yuklama orqali inkor, taqrir, tanbeh, taajjub, istehzo, ogohlantirish, qiziqtirish, shubhaga solish, nafratlantirish, tenglashtirish kabi o'nlab majoziy ma'nolar ifodalanishi qayd etiladi."
+        },
+        {
+          "number": "To'rtinchidan",
+          "content": "هل yuklamasi arab tilida tasdiq so'roqlarining asosiy vositasi bo'lib, shaklan oddiy savol berishni bildiradi. هل ning qo'llanish doirasi ayrim grammatik cheklovlarga ega: u tasavvur so'roqlarida ishlatilmaydi, shart va bo'lishsiz gaplar bilan kelmaydi, إنّ bilan moslashmaydi hamda fe'lning hozirgi zamon ma'nosini anglatmaydi."
+        },
+        {
+          "number": "Beshinchidan",
+          "content": "Arab tilidagi so'roq olmoshlari mazmuniy va sintaktik jihatdan murakkab birliklar bo'lib, ularning har biri ma'lum grammatik vazifa, ma'no doirasi va kontekstual shartlarga ega. So'roq olmoshlarining sintaktik o'rnini aniqlashda ularning shakliy belgilari yetarli emas, buning uchun gapning umumiy tuzilishini tahlil qilish zarur."
+        },
+        {
+          "number": "Oltinchidan",
+          "content": "So'roq olmoshlari (من, ما, أين, متى, أيان, كيف, أي) faqat savol berish vositasi sifatida ishlatilmaydi. Ular ko'pincha shakl va mazmun nomuvofiqligi bilan xarakterlanadi. Ya'ni, grammatik jihatdan so'roq shaklida bo'lgan gaplar mazmunan haqiqiy savolni anglatmasligi mumkin."
+        }
+      ]
+    },
+    {
+      "id": "adabiyotlar",
+      "type": "bibliography",
+      "title": "FOYDALANILGAN ADABIYOTLAR RO'YXATI",
+      "categories": [
+        {
+          "id": "siyosiy",
+          "title": "I. Siyosiy adabiyot",
+          "items": [
+            "O'zbekiston Respublikasi Prezidentining 19.05.2021-yildagi PQ-5117-son qarori – Xorijiy tillarni o'rganishni ommalashtirish to'g'risida.",
+            "O'zbekiston Respublikasi Prezidentining 21.02.2024-yildagi PF-37-son farmoni – \"O'zbekiston – 2030\" strategiyasi to'g'risida."
+          ]
+        },
+        {
+          "id": "uzbek",
+          "title": "II. O'zbek tilidagi adabiyot",
+          "items": [
+            "Nosirova M. Tilshunoslik bilimlari tarixi. – Toshkent: O'zXIA, 2004. – 236 b.",
+            "Rustamiy S. Balog'at ilmi. – Toshkent: Zilol buloq, 2020. – 156 b.",
+            "Abdujabborov A. Arab tili. – Toshkent: Toshkent islom universiteti, 2015. – 308 b.",
+            "Ibrohimov N., Yusupov M. Arab tili grammatikasi. – Toshkent: O'z.m.entsiklopediyasi, 1997. – 454 b.",
+            "Mahmudov N., Nurmonov A. O'zbek tilining nazariy grammatikasi. – Toshkent: O'qituvchi, 1995. – 149 b.",
+            "Mansur Abdulaziz. Qur'oni karim ma'nolari tarjimasi. – Toshkent: TIU, 2001. – 553 b.",
+            "Hakimov M. O'zbek pragmalingvistikasi asoslari. – Toshkent: Akademnashr, 2013. – 176 b."
+          ]
+        },
+        {
+          "id": "dissertatsiyalar",
+          "title": "III. Ilmiy dissertatsiya va maqolalar",
+          "items": [
+            "Xoshimova N., Sotvoldiyeva M. Presuppozitsiya va uning tilshunoslik sohasida tutgan o'rni // Interpretation and researches. – Vol.1, №7. – 2023. – P.177–184.",
+            "Haynazarova M. So'roq gaplarda shakl va mazmun nomuvofiqligi: diss.avtorefi. – Toshkent, 1999. – 25 b."
+          ]
+        },
+        {
+          "id": "arab",
+          "title": "IV. Arab tilidagi adabiyot",
+          "items": [
+            "ابن منظور. لسان العرب. – القاهرة: الدار العالمية. ج7. 2021م.",
+            "أبو الفتاح عثمان بن جني. الخصائص. – الهيئة المصرية العامة. – 1357 ص.",
+            "سيبويه. الكتاب. – القاهرة: مكتبة الخانجي. 2009م. – 2518 ص.",
+            "السيد أحمد الهاشمي. جواهر البلاغة. – بيروت: المكتبة العصرية. – 480 ص.",
+            "الدكتر فاضل صالح السمرائي. معاني النحو. – عمان: دار الفكر. ج4. 2000م.",
+            "مصطفى الغلاييني. جامع الدروس العربية. – بيروت: المكتبة العصرية. 2009م.",
+            "محمود الزمخشري. المفصل في علم العربية. – بيروت: مكتبة الهلال. 1993م.",
+            "عبد القاهر الجرجاني. دلائل الإعجاز. – بيروت: دار الكتب العلمية. 2001م.",
+            "علي الجارم، مصطفى أمين. البلاغة الواضحة. – بيروت: مؤسسة الرسالة. 2019م.",
+            "الدكتور عبده الراجحي. التطبيق النحوي. – الإسكندرية: دار المعرفة الجامعية. 1998م."
+          ]
+        },
+        {
+          "id": "western",
+          "title": "V. G'arb va rus tillaridagi adabiyot",
+          "items": [
+            "Abu-Chacra F. Arabic: An Essential Grammar. – New York: Taylor & Francis, 2007. – 256 p.",
+            "Haywood J.A., Nahmad H.M. A New Arabic Grammar. – London: Lund Humphries, 1965. – 688 p.",
+            "Ryding K.C. A Reference Grammar of Modern Standard Arabic. – New York: CUP, 2005. – 708 p.",
+            "Wright W. A grammar of Arabic language. – Cambridge: CUP, 1896. – 346 p.",
+            "Grande B. Kurs arabskoy grammatiki. – M: Vostochnaya literatura, 2001. – 586 s.",
+            "Kovalev A., Sharbatov G. Uchebnik arabskogo yazika. – M: Vostochnaya literatura, 1998. – 754 s.",
+            "Redkin O., Bernikova O. Grammatika arabskogo yazika. – SPb: Prezidentskaya biblioteka, 2015. – 220 s."
+          ]
+        }
+      ]
+    }
+  ]
+}
