@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magistrlik Dissertatsiyasi</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Claude bergan barcha chiroyli stillar */
+        :root {
+            --bg: #faf8f4; --bg2: #f3efe8; --bg3: #ebe5d9;
+            --ink: #1c1710; --ink2: #3d3629; --ink3: #6b6050;
+            --gold: #b8860b; --gold-lt: #d4a017; --gold-bg: #fdf5e0;
+            --accent: #5c3d1e; --border: #ddd4c0;
+            --radius: 10px; --sidebar-w: 300px;
+            --font-serif: 'Source Serif 4', Georgia, serif;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html { scroll-behavior: smooth; }
+        body { background: var(--bg); color: var(--ink); font-family: var(--font-serif); margin: 0; min-height: 100vh; }
+
+        /* Sidebar */
+        .sidebar {
+            width: var(--sidebar-w); height: 100vh; background: var(--accent);
+            color: #f5edd8; position: fixed; top: 0; left: 0; z-index: 100;
+            transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+            box-shadow: 4px 0 24px rgba(0,0,0,.18);
+            overflow-y: auto;
+        }
+        .sidebar.closed { transform: translateX(-100%); }
+
+        .sidebar-header { padding: 28px 22px; border-bottom: 1px solid rgba(255,255,255,0.12); }
+        .sidebar-logo { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; }
+        
+        .nav-section-btn {
+            width: 100%; padding: 12px 22px; background: none; border: none;
+            color: #f5edd8; text-align: left; cursor: pointer; transition: 0.2s;
+            font-family: var(--font-serif); border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .nav-section-btn:hover { background: rgba(255,255,255,0.08); }
+
+        /* Main Content */
+        .main { margin-left: var(--sidebar-w); transition: margin-left 0.3s; }
+        .main.full { margin-left: 0; }
+
+        .cover {
+            background: linear-gradient(160deg, #3d2a12 0%, var(--accent) 100%);
+            color: #f5edd8; padding: 80px 60px; position: relative;
+        }
+        .cover-title { font-family: var(--font-display); font-size: clamp(22px, 4vw, 34px); line-height: 1.3; margin: 20px 0; }
+
+        .content { padding: 52px 60px; max-width: 820px; margin: 0 auto; }
+        .section { margin-bottom: 60px; }
+        .prose { font-size: 17px; line-height: 1.8; color: var(--ink2); text-align: justify; white-space: pre-line; }
+
+        /* Mobile */
+        .toggle-btn {
+            position: fixed; top: 18px; left: 18px; z-index: 200;
+            width: 42px; height: 42px; border-radius: 50%;
+            background: var(--accent); color: white; border: none; cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        @media (max-width: 768px) {
+            .main { margin-left: 0; }
+            .sidebar { transform: translateX(-100%); }
+            .sidebar.open { transform: translateX(0); }
+            .content { padding: 30px 20px; }
+            .cover { padding: 60px 30px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <button class="toggle-btn" @click="sidebarOpen = !sidebarOpen">☰</button>
+        
+        <nav class="sidebar" :class="{ open: sidebarOpen, closed: !sidebarOpen }">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">📚 Dissertatsiya</div>
+                <div style="font-size: 12px; opacity: 0.7; margin-top: 5px;" v-if="data">{{ data.meta.author }}</div>
+            </div>
+            <div v-if="data">
+                <div v-for="section in data.sections" :key="section.id">
+                    <button class="nav-section-btn" @click="scrollTo(section.id)">
+                        {{ section.title }}
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main" :class="{ full: !sidebarOpen }">
+            <header class="cover" v-if="data">
+                <div style="font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; opacity: 0.6;">{{ data.meta.institution }}</div>
+                <h1 class="cover-title">{{ data.meta.title }}</h1>
+                <div style="font-style: italic; font-size: 18px;">{{ data.meta.author }}</div>
+                <div style="margin-top: 30px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px;">
+                    <small>Ilmiy rahbar:</small> <strong>{{ data.meta.supervisor }}</strong>
+                </div>
+            </header>
+
+            <article class="content" v-if="data">
+                <section v-for="section in data.sections" :id="section.id" :key="section.id" class="section">
+                    <h2 style="font-family: var(--font-display); color: var(--accent); border-bottom: 2px solid var(--gold); padding-bottom: 10px;">
+                        {{ section.title }}
+                    </h2>
+                    
+                    <div v-if="section.subsections">
+                        <div v-for="sub in section.subsections" :key="sub.id" style="margin-top: 30px;">
+                            <h3 style="font-family: var(--font-display); font-size: 20px; color: var(--ink);">{{ sub.title }}</h3>
+                            <div class="prose">{{ sub.content }}</div>
+                        </div>
+                    </div>
+
+                    <div v-if="section.points" style="margin-top: 30px;">
+                        <div v-for="p in section.points" :key="p.number" style="background: var(--bg2); padding: 15px; margin-bottom: 10px; border-left: 4px solid var(--gold);">
+                            <strong>{{ p.number }}.</strong> {{ p.content }}
+                        </div>
+                    </div>
+
+                    <div v-if="section.categories" style="margin-top: 30px;">
+                        <div v-for="cat in section.categories" :key="cat.id">
+                            <h4 style="font-family: var(--font-mono); color: var(--gold);">{{ cat.title }}</h4>
+                            <ul>
+                                <li v-for="item in cat.items" style="margin-bottom: 10px; font-size: 14px;">{{ item }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
+
+    <script>
+        const { createApp, ref, onMounted } = Vue;
+        createApp({
+            setup() {
+                const data = ref(null);
+                const sidebarOpen = ref(window.innerWidth > 768);
+
+                const scrollTo = (id) => {
+                    const el = document.getElementById(id);
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    if (window.innerWidth < 768) sidebarOpen.value = false;
+                };
+
+                onMounted(() => {
+                    fetch('./dissertation.json')
+                        .then(res => res.json())
+                        .then(json => { data.value = json; })
+                        .catch(err => alert("Xatolik: dissertation.json fayli topilmadi yoki xato yozilgan!"));
+                });
+
+                return { data, sidebarOpen, scrollTo };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
